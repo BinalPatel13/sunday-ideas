@@ -1,0 +1,27 @@
+
+<mat-card>
+  <mat-card-content>
+    <h2 class="example-h2">Material Grid List</h2>
+    <mat-grid-list cols="5" rowHeight="80px">
+      <mat-grid-tile   [colspan]="2" [rowspan]="6">
+        <app-form></app-form>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="2" [rowspan]="6">
+        <app-button></app-button>
+      </mat-grid-tile>
+    </mat-grid-list>
+
+<app-progress-bar></app-progress-bar>
+<app-button-toggle></app-button-toggle>
+<app-icon></app-icon>
+<app-menu></app-menu>
+<app-tab></app-tab>
+
+<button mat-fab class="app-fab">
+  <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+</button>
+</mat-card-content>
+
+</mat-card>
+
+<app-text></app-text>

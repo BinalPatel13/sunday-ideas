@@ -1,0 +1,13 @@
+<mat-card>
+    <mat-card-content>
+      <h2 class="example-h2">Material Progress Bar</h2>
+      <label>
+        Indeterminate progress-bar
+        <mat-progress-bar class="app-progress" mode="indeterminate" aria-label="Indeterminate progress-bar example"></mat-progress-bar>
+      </label>
+      <label>
+        Determinate progress bar - {{progress}}%
+        <mat-progress-bar class="app-progress" color="accent" mode="determinate" [value]="progress" aria-label="Determinate progress-bar example"></mat-progress-bar>
+      </label>
+    </mat-card-content>
+  </mat-card>
