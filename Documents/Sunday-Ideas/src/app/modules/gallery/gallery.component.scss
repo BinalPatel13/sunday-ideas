@@ -1,0 +1,36 @@
+.carousel-caption{
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    opacity: 0;
+    transition: 0.3 ease-in-out;
+    cursor: pointer;
+}
+
+img{
+    transition: 0.3s;
+    opacity: 1;
+    cursor: pointer;
+    padding-bottom: 18px;
+    filter: grayscale(0);
+    transition: 0.3s ease-in-out;
+}
+
+.fulldiv{
+    transition: 0.5s ease-in-out;
+}
+
+.col-md-4 .fulldiv:hover{
+    display: block;
+    opacity: 0.9;
+    border-radius: 5px;
+    filter: grayscale(100%);
+    transform: scale(1.04);
+    transform: translateY(-10px);
+    box-shadow: 2px 4px 18px #666666;
+}
+
+.col-md-4:hover .carousel-caption{
+    opacity: 1;
+}

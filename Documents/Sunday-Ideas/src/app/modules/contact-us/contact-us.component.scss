@@ -1,0 +1,34 @@
+#contact{
+    background-image: url(../../../assets/Banner_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3.2em;
+    color: #03000a;
+    font-weight: bold;
+}
+
+#name{
+    margin-top: 150px;
+}
+
+#email{
+    margin-top: 150px;
+}
+
+input[type=text]{
+    background-color: transparent;
+    color: #ffffff;
+}
+input[type=email]{
+    background-color: transparent;
+    color: #ffffff;
+}
+#textarea{
+    background-color: transparent;
+    color: #ffffff;
+}
